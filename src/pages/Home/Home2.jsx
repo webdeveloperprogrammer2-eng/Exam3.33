@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Box, Typography, Container, Button } from "@mui/material";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
@@ -23,6 +24,7 @@ const projectsData = [
 ];
 
 export default function ProjectsSection() {
+  const { t } = useTranslation();
   const [filter, setFilter] = useState("all");
 
   const filteredProjects = filter === "all"
@@ -35,7 +37,7 @@ export default function ProjectsSection() {
 
         <Box className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-12 gap-4">
           <Typography variant="h4" className="font-bold tracking-wide text-2xl sm:text-4xl">
-            Latest projects
+            {t("projects_section.latest")}
           </Typography>
 
           <Box className="flex items-center gap-6 text-sm font-medium">
@@ -45,12 +47,12 @@ export default function ProjectsSection() {
                 onClick={() => setFilter(type)}
                 className={`capitalize transition-colors ${filter === type ? "text-amber-400 font-semibold" : "text-stone-400 hover:text-white"}`}
               >
-                {type === "all" ? "All" : type}
+                {t(`projects_section.${type}`)}
               </button>
             ))}
             <span className="text-stone-600">|</span>
             <button className="text-stone-400 hover:text-white text-xs underline decoration-amber-400 underline-offset-4">
-              View all projects
+              {t("projects_section.view_all")}
             </button>
           </Box>
         </Box>
@@ -63,18 +65,9 @@ export default function ProjectsSection() {
             slidesPerGroup={1}
             pagination={{ clickable: true }}
             breakpoints={{
-              640: {
-                slidesPerView: 2,
-                slidesPerGroup: 2
-              },
-              1024: {
-                slidesPerView: 3,
-                slidesPerGroup: 3
-              },
-              1280: {
-                slidesPerView: 4,
-                slidesPerGroup: 4
-              },
+              640: { slidesPerView: 2, slidesPerGroup: 2 },
+              1024: { slidesPerView: 3, slidesPerGroup: 3 },
+              1280: { slidesPerView: 4, slidesPerGroup: 4 },
             }}
             className="pb-14"
           >
@@ -84,11 +77,7 @@ export default function ProjectsSection() {
                   <Box className="relative w-full h-full transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
 
                     <Box className="absolute inset-0 w-full h-full [backface-visibility:hidden]">
-                      <img
-                        src={project.img}
-                        alt={project.title}
-                        className="w-full h-full object-cover"
-                      />
+                      <img src={project.img} alt={project.title} className="w-full h-full object-cover" />
                       <Box className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                       <Typography className="absolute bottom-6 left-6 text-xl font-bold tracking-wide">
                         {project.title}
@@ -97,9 +86,7 @@ export default function ProjectsSection() {
 
                     <Box className="absolute inset-0 w-full h-full bg-amber-400 text-stone-900 p-8 flex flex-col justify-between [transform:rotateY(180deg)] [backface-visibility:hidden]">
                       <Box>
-                        <Typography className="text-2xl font-bold mb-6">
-                          Dubai
-                        </Typography>
+                        <Typography className="text-2xl font-bold mb-6">{t("projects_section.dubai")}</Typography>
                         <Typography className="text-sm leading-relaxed font-medium text-stone-800">
                           {project.text}
                         </Typography>
@@ -108,7 +95,7 @@ export default function ProjectsSection() {
                         className="text-stone-900 text-xs font-bold normal-case p-0 justify-start hover:bg-transparent"
                         endIcon={<span>➔</span>}
                       >
-                        See project
+                        {t("projects_section.see_project")}
                       </Button>
                     </Box>
 
@@ -139,29 +126,16 @@ export default function ProjectsSection() {
 
       </Container>
 
-
       <div className='mt-18 text-start w-[50%] m-auto '>
-        <p className='text-[#FCD54C] text-[18px] '>Our expertise</p>
-        <h1 className='text-[70px]'>
-          "The best apartment <br />
-          in Dubai" we will find <br />
-          your dream
+        <p className='text-[#FCD54C] text-[18px] '>{t("projects_section.expertise")}</p>
+        <h1 className='text-[70px] leading-tight'>
+          {t("projects_section.title")}
         </h1>
 
         <p className='text-[18px] text-[#888] mt-4'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh massa, <br />
-          euismod ut libero id, blandit posuere augue. Morbi porta volutpat diam egestas <br />
-          ultrices. Phasellus tempus fringilla neque, nec viverra orci tristique vel. In efficitur <br />
-          vehicula magna, varius pellentesque nisl vehicula vel. Aenean vel sem ac elit <br />
-          commodo finibus in nec massa. Nulla facilisi. Nulla vestibulum venenatis <br />
-          sollicitudin. Etiam auctor mollis justo eu tincidunt. Aliquam varius varius tortor. <br />
-          Cras id venenatis sem. Quisque ut risus ex. Sed et tempor massa. Praesent ac <br />
-          eros hendrerit, congue justo ac, molestie urna. Fusce nec neque vitae dolor <br />
-          dapibus elementum. Maecenas nec orci quis sem condimentum dapibus varius a <br />
-          lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          {t("projects_section.dream_text")}
         </p>
       </div>
     </Box>
-
   );
 }

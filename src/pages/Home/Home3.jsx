@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import { Typography, IconButton, Box } from "@mui/material";
+import { useTranslation } from "react-i18next"; // Илова шуд
+import { Typography, IconButton } from "@mui/material";
 import PlayCircleFilledWhiteIcon from "@mui/icons-material/PlayCircleFilledWhite";
 
 const Section3 = () => {
+    const { t } = useTranslation(); // Hook-и тарҷума
     const [showVideo, setShowVideo] = useState(false);
 
     const handlePlay = () => {
@@ -33,10 +35,10 @@ const Section3 = () => {
 
             <div className="w-full max-w-3xl mx-auto border border-[#d4af37] p-8 text-center rounded-sm my-12 bg-[#262626]/50 px-6">
                 <Typography variant="h6" className="italic text-gray-300 font-light leading-relaxed select-none" sx={{ fontFamily: "serif", fontSize: "1.25rem" }} >
-                    “Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.”
+                    {t("section3.quote")}
                 </Typography >
                 <Typography variant="subtitle1" className="text-[#d4af37] mt-4 font-semibold uppercase tracking-wider" sx={{ fontSize: "0.9rem" }} >
-                    — Mary Kay Ash
+                    {t("section3.author")}
                 </Typography>
             </div>
 
@@ -50,7 +52,7 @@ const Section3 = () => {
                         />
                     </div>
                     <p className="text-sm text-gray-400 text-justify leading-relaxed">
-                        Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium ligula purus nec tellus.
+                        {t("section3.text1")}
                     </p>
                 </div>
 
@@ -63,7 +65,7 @@ const Section3 = () => {
                         />
                     </div>
                     <p className="text-sm text-gray-400 text-justify leading-relaxed">
-                        Vivamus non diam vel lorem efficitur mattis in gravida ante. Ut ullamcorper dapibus ante, eu tincidunt orci feugiat vel. Curabitur eget lectus lectus. Pellentesque malesuada, felis at accumsan interdum, nisl mi fermentum est, eu suscipit dui lorem a dui. Aliquam rhoncus risus in leo vestibulum efficitur.
+                        {t("section3.text2")}
                     </p>
                 </div>
             </div>

@@ -1,0 +1,236 @@
+{
+    "nav": {
+        "buy": "Buy",
+        "blog": "Blog",
+        "about": "About",
+        "contact": "Contact",
+        "book": "Book a Consultation"
+    },
+    "footer": {
+        "buy_title": "Buy",
+        "apartment": "Apartment in Dubai",
+        "house": "House in Dubai",
+        "apartments": "Apartments in Dubai",
+        "loft": "Loft in Dubai",
+        "penthouse": "Penthouse in Dubai",
+        "villa": "Villa in Dubai",
+        "services_title": "Services",
+        "serv1": "Property management",
+        "serv2": "Sell property",
+        "serv3": "Rent property",
+        "serv4": "Investments",
+        "serv5": "Real estate for crypto",
+        "serv6": "Moving to Dubai",
+        "info_title": "Information",
+        "info1": "Video",
+        "info2": "Podcasts",
+        "info3": "Laws",
+        "info4": "Questions and answers",
+        "info5": "Books",
+        "info6": "Articles",
+        "about_title": "About company",
+        "about1": "Jobs",
+        "about2": "Story",
+        "about3": "Licenses",
+        "about4": "Why are we",
+        "about5": "Real estate agency",
+        "contact_title": "Contact",
+        "addr1": "964 Worthington Drive",
+        "addr2": "Dubai, UAE",
+        "email": "dubairealty@mail.com",
+        "copyright": "Copyright © 2022 Dubai Realty"
+    },
+    "section1": {
+        "subtitle": "LOREM IPSUM",
+        "welcome_home": "Welcome Home",
+        "to": "To",
+        "luxury": "Luxury",
+        "book_consultation": "Book a consultation",
+        "prev": "PREV",
+        "next": "NEXT",
+        "card_title": "Lorem Ipsum",
+        "card_desc": "Dolorem apset"
+    },
+    "projects_section": {
+        "latest": "Latest projects",
+        "all": "All",
+        "building": "Building",
+        "interior": "Interior",
+        "view_all": "View all projects",
+        "dubai": "Dubai",
+        "see_project": "See project",
+        "expertise": "Our expertise",
+        "title": "\"The best apartment in Dubai\" we will find your dream",
+        "dream_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh massa, euismod ut libero id, blandit posuere augue. Morbi porta volutpat diam egestas ultrices. Phasellus tempus fringilla neque, nec viverra orci tristique vel. In efficitur vehicula magna, varius pellentesque nisl vehicula vel. Aenean vel sem ac elit commodo finibus in nec massa. Nulla facilisi. Nulla vestibulum venenatis sollicitudin. Etiam auctor mollis justo eu tincidunt. Aliquam varius varius tortor. Cras id venenatis sem. Quisque ut risus ex. Sed et tempor massa. Praesent ac eros hendrerit, congue justo ac, molestie urna. Fusce nec neque vitae dolor dapibus elementum. Maecenas nec orci quis sem condimentum dapibus varius a lorem."
+    },
+    "section3": {
+        "quote": "“Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.”",
+        "author": "— Mary Kay Ash",
+        "text1": "Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id tortor.",
+        "text2": "Vivamus non diam vel lorem efficitur mattis in gravida ante. Ut ullamcorper dapibus ante, eu tincidunt orci feugiat vel. Curabitur eget lectus lectus. Pellentesque malesuada, felis at accumsan interdum, nisl mi fermentum est, eu suscipit dui lorem a dui."
+    },
+    "contact_section": {
+        "subtitle": "Do you have any questions?",
+        "title": "Contact us",
+        "placeholder": "Enter your mail",
+        "button": "Send"
+    },
+    "section5": {
+        "title": "Useful articles",
+        "view_all": "View all articles",
+        "card_title": "Discover Architecture",
+        "date": "June 03, 2025",
+        "desc": "Projects for many large domestic and foreign corporations, enterprises in many slots such",
+        "learn_more": "Learn more"
+    },
+    "testimonials": {
+        "text1": "Projects for many large domestic and foreign corporations, enterprises in many fields such as finance, banking, F&B, education, communication.",
+        "text2": "Founded in 2007, Sparch is specializing in providing innovative services such as website design, brand identity and marketing.",
+        "text3": "Great experience working with the team. Delivering exceptional quality design and solid modern architecture for our applications."
+    },
+    "faq": {
+        "title": "FAQ",
+        "items": {
+            "q1": {
+                "q": "The largest and oldest Quotations Page on the Web with about 30 categories",
+                "a": "Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque augue elit, rutrum sit amet commodo vel, porta quis purus."
+            },
+            "q2": {
+                "q": "A huge collection of inspirational quotes, thoughts of greatest minds in history",
+                "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget."
+            },
+            "q3": {
+                "q": "Quotations from the great works of literature",
+                "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget."
+            },
+            "q4": {
+                "q": "Read quotes and sayings from famous people in history",
+                "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget."
+            },
+            "q5": {
+                "q": "Collected quotes from Albert Einstein",
+                "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget."
+            }
+        }
+    },
+    "blog": {
+        "title": "Blog",
+        "search": "Search",
+        "addNew": "Add New",
+        "name": "Name",
+        "description": "Description",
+        "save": "SAVE"
+    },
+    "hero": {
+        "rent_label": "Rent",
+        "title_part1": "Furnished Apartments",
+        "title_part2": "in Dubai",
+        "nav": {
+            "main": "Main",
+            "services": "Services",
+            "rent": "Rent",
+            "current": "Furnished Apartments in Dubai"
+        }
+    },
+    "text_section": {
+        "p1": "This response is important for our ability to learn from mistakes, but it also gives rise to self-criticism, because it is part of the threat-protection system.",
+        "p2": "One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in the future. The same is true as we experience the emotional sensation of stress from our first instances of social rejection or ridicule. We quickly learn to fear and thus automatically avoid potentially stressful situations of all kinds, including the most common of all:",
+        "p3": "This response is important for our ability to learn from mistakes, but it also gives rise to self-criticism, because it is part of the threat-protection system. In other words, what keeps us safe can go too far, and keep us too safe. In fact it can trigger self-censoring.",
+        "p4": "One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in the future. The same is true as we experience the emotional sensation of stress from our first instances of social rejection or ridicule."
+    },
+    "methods": {
+        "title": "Methods for Everyone",
+        "p1": "Everything along the way, to and from, fascinated her: every pebble, ant, stick, leaf, blade of grass, and crack in the sidewalk was something to be picked up, looked at, tasted, smelled, and shaken. Everything was interesting to her. She knew nothing. I knew everything...been there, done that. She was in the moment, I was in the past. She was mindful. I was mindless.",
+        "p2": "One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in the future. The same is true as we experience the emotional sensation of stress from our first instances of social rejection or ridicule. We quickly learn to fear and thus automatically avoid potentially stressful situations of all kinds, including the most common of all: making mistakes.",
+        "quote": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
+        "author_name": "Paul",
+        "author_title": "Elite Author"
+    },
+    "stats": {
+        "years": "Years",
+        "working": "Working",
+        "talented": "Talented",
+        "managers": "Managers",
+        "completed": "Completely",
+        "projects": "Projects"
+    },
+    "challenge": {
+        "title": "Challenge",
+        "p1": "To and from, fascinated her: every pebble, ant, stick, leaf, blade of grass, and crack in the sidewalk was something to be picked up, looked at, tasted, smelled, and shaken. Everything was interesting to her. She knew nothing. I knew everything...been there, done that. She was in the moment, I was in the past. She was mindful. I was mindless.",
+        "subtitle": "Everything along the way",
+        "p2": "One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in the future. The same is true as we experience the emotional sensation of stress from our first instances of social rejection or ridicule. We quickly learn to fear and thus automatically avoid potentially stressful situations of all kinds, including the most common of all: making mistakes.",
+        "list1": "Everything along the way, to and from, fascinated her: every pebble, ant, stick, leaf, blade of grass, and crack in the sidewalk was something to be picked up, looked at, tasted, smelled, and shaken.",
+        "list2": "Everything was interesting to her. She knew nothing. I knew everything...been there, done that. She was in the moment, I was in the past. She was mindful. I was mindless.",
+        "list3": "One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in the future. The same is true as we experience the emotional sensation of stress from our first instances of social rejection or ridicule.",
+        "list4": "We quickly learn to fear and thus automatically avoid potentially stressful situations of all kinds, including the most common of all: making mistakes."
+    },
+    "contact": {
+        "subtitle": "Do you have any questions?",
+        "title": "Contact us",
+        "placeholder": "Enter your mail",
+        "button": "Send"
+    },
+    "pricing": {
+        "headers": {
+            "included": "Included in the package",
+            "complete": "Complete management",
+            "partial": "Partial control"
+        },
+        "features": {
+            "adv": "Real estate advertising",
+            "tenants": "Search for tenants",
+            "contract": "Conclusion of a lease agreement",
+            "payment": "Getting paid",
+            "keys": "Key handover",
+            "processing": "Payment processing",
+            "repairs": "Dealing with repair requests",
+            "dewa": "DEWA connection (electricity/water)",
+            "ejari": "Registration of the rental agreement Ejari",
+            "admin": "Separate administrator",
+            "inspection": "Detailed inspection of the object",
+            "prep": "Property preparation before arrival",
+            "reporting": "Reporting",
+            "req_mgmt": "Repair Request Management",
+            "repair_mgmt": "Repair management"
+        }
+    },
+    "services": {
+        "title": "We will also propose",
+        "view_all": "View all services",
+        "learn_more": "Learn more",
+        "list": {
+            "mortgage": {
+                "title": "Mortgage Registration",
+                "desc": "A person applying for a mortgage in the United Arab Emirates must meet the following requirements"
+            },
+            "property": {
+                "title": "Property Management",
+                "desc": "Comprehensive control and maintenance of your real estate investments with maximum return and safety."
+            },
+            "legal": {
+                "title": "Legal Consultation",
+                "desc": "Professional legal support for property deals, local regulations compliance, and contract registration."
+            }
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "location": {
+            "city": "Dubai",
+            "country": "UAE"
+        },
+        "address": "269 King Str, 05th Floor, Utral Hosue Building, Dubai, VIC 3000, UAE.",
+        "email_label": "Email",
+        "hours_label": "Work Hours",
+        "hours_value": "Monday - Friday : 08h00 - 17h30"
+    },
+    "contact_form": {
+        "title_part1": "Be in touch",
+        "title_part2": "with us",
+        "placeholder_name": "Name",
+        "placeholder_email": "Email *",
+        "placeholder_subject": "Subject",
+        "placeholder_message": "Message *",
+        "submit_button": "SUBMIT"
+    }
+}

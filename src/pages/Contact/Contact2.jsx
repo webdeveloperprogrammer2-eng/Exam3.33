@@ -1,63 +1,59 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Container, Grid, Typography, Box, Button } from '@mui/material';
 
 export default function ContactFormSection() {
+    const { t } = useTranslation();
+
     return (
         <Box className="bg-[#222222] min-h-screen flex items-center py-20 text-white font-sans">
             <Container maxWidth="lg">
                 <Box className="max-w-5xl mx-auto flex flex-col gap-10">
-
                     <Box className="flex flex-col">
                         <Typography variant="h4" sx={{ fontFamily: 'inherit', fontWeight: 700, color: '#f5c742', lineHeight: 1.2 }}>
-                            Be in touch
+                            {t('contact_form.title_part1')}
                         </Typography>
                         <Typography variant="h4" sx={{ fontFamily: 'inherit', fontWeight: 700, lineHeight: 1.2 }}>
-                            with us
+                            {t('contact_form.title_part2')}
                         </Typography>
                     </Box>
 
                     <form onSubmit={(e) => e.preventDefault()} className="w-full flex flex-col gap-6">
                         <div className='flex flex-col gap-5'>
-
                             <div className='flex gap-10'>
                                 <Grid item xs={12} md={4}>
                                     <input
                                         type="text"
-                                        placeholder="Name"
+                                        placeholder={t('contact_form.placeholder_name')}
                                         className="w-full bg-[#2a2a2a] border border-zinc-700 text-white px-11 py-4 focus:outline-none focus:border-zinc-500 placeholder-zinc-500 text-sm font-medium transition-colors"
                                     />
                                 </Grid>
-
                                 <Grid item xs={12} md={4}>
                                     <input
                                         type="email"
-                                        placeholder="Email *"
+                                        placeholder={t('contact_form.placeholder_email')}
                                         required
                                         className="w-full bg-[#2a2a2a] border border-zinc-700 text-white px-11 py-4 focus:outline-none focus:border-zinc-500 placeholder-zinc-500 text-sm font-medium transition-colors"
                                     />
                                 </Grid>
-
                                 <Grid item xs={12} md={4}>
                                     <input
                                         type="text"
-                                        placeholder="Subject"
+                                        placeholder={t('contact_form.placeholder_subject')}
                                         className="w-full bg-[#2a2a2a] border border-zinc-700 text-white px-11 py-4 focus:outline-none focus:border-zinc-500 placeholder-zinc-500 text-sm font-medium transition-colors"
                                     />
                                 </Grid>
                             </div>
-
                             <Grid item xs={12}>
                                 <textarea
                                     rows={6}
-                                    style={{width:'868px'}}
-                                    placeholder="Message *"
+                                    style={{ width: '868px' }}
+                                    placeholder={t('contact_form.placeholder_message')}
                                     required
                                     className="w-full bg-[#2a2a2a] border border-zinc-700 text-white p-5 focus:outline-none focus:border-zinc-500 placeholder-zinc-500 text-sm font-medium transition-colors resize-none"
                                 />
                             </Grid>
-
                         </div>
-
                         <Box>
                             <Button
                                 type="submit"
@@ -72,18 +68,15 @@ export default function ContactFormSection() {
                                     fontSize: '13px',
                                     letterSpacing: '1px',
                                     fontFamily: 'inherit',
-                                    '&:hover': {
-                                        backgroundColor: '#e0b536',
-                                    },
+                                    '&:hover': { backgroundColor: '#e0b536' },
                                 }}
                             >
-                                SUBMIT
+                                {t('contact_form.submit_button')}
                             </Button>
                         </Box>
                     </form>
-
                 </Box>
-            </Container >
-        </Box >
+            </Container>
+        </Box>
     );
 }
